@@ -16,7 +16,7 @@ fn main() {
 
     for _ in 0..number {
         let num = ant + sig;
-        println!("{}", num);
+        println!("{}", ant);
 
         ant = sig;
         sig = num;
